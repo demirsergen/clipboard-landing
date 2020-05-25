@@ -13,7 +13,48 @@ $grayish-blue: hsl(201, 11%, 66%);
 body {
     font-size: 18px;
     font-family: 'Bai Jamjuree', sans-serif;
+
+    header {
+        width:100%;
+        padding: 3em 0 2em 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/images/bg-header-desktop.png);
+        background-repeat:no-repeat ;
+        text-align: center;
+
+        h1 {
+            margin: .5em;
+        }
+
+        p {
+            color: $grayish-blue;
+        }
+
+        button {
+            margin-top: 2.5em;
+            padding: 1em 3em;
+            border: 1px solid white ;
+            border-radius: 25px;
+            cursor: pointer;
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .green-btn {
+            background-color: $strong-cyan;
+            margin-right: .7em;
+        }
+        .purple-btn {
+            background-color: $light-blue;
+        }
+    }
 }
+
 
 
 

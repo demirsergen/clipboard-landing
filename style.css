@@ -12,6 +12,56 @@ body {
   font-family: 'Bai Jamjuree', sans-serif;
 }
 
+body header {
+  width: 100%;
+  padding: 3em 0 2em 0;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+body header h1 {
+  margin: .5em;
+}
+
+body header p {
+  color: #9fabb2;
+}
+
+body header button {
+  margin-top: 2.5em;
+  padding: 1em 3em;
+  border: 1px solid white;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+body header .green-btn {
+  background-color: #26baa4;
+  margin-right: .7em;
+}
+
+body header .purple-btn {
+  background-color: #6173ff;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
