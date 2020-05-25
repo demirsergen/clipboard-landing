@@ -70,10 +70,6 @@ body header .purple-btn:hover {
   opacity: .9;
 }
 
-body section {
-  width: 100%;
-}
-
 body section .section-1 {
   margin: 5em 0 5em 0;
   display: -webkit-box;
@@ -133,7 +129,7 @@ body section .section-2 .content {
 
 body section .section-3 {
   width: 60%;
-  margin: 7em auto;
+  margin: 6em auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,7 +157,188 @@ body section .section-3 .device-img {
 
 body section .section-3 p {
   color: #9fabb2;
-  margin-bottom: 5em;
+  margin-bottom: 4em;
+}
+
+body section .section-4 {
+  width: 100%;
+  margin: 2em auto;
+  text-align: center;
+}
+
+body section .section-4 h1 {
+  margin: 1em 0;
+  font-size: 35px;
+}
+
+body section .section-4 p {
+  margin: 0 auto;
+  margin-bottom: 3em;
+  font-size: 20px;
+  color: #9fabb2;
+}
+
+body section .section-4 .offerings {
+  width: 100%;
+  margin: 2em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+body section .section-4 .offerings h1 {
+  font-size: 20px;
+}
+
+body section .section-4 .offerings p {
+  font-size: 16px;
+}
+
+body section .section-4 .offerings .blacklists {
+  padding: 0 1em;
+}
+
+body section .section-4 .offerings .snippets {
+  padding: 0 1em;
+  margin-top: 10px;
+}
+
+body section .section-4 .offerings .sneak__preview {
+  padding: 0 1em;
+  margin-top: 10px;
+}
+
+body section .section-5 {
+  width: 100%;
+  margin-top: 5em;
+}
+
+body section .section-5 .brand {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section .section-6 {
+  width: 100%;
+  margin: 7em 0;
+}
+
+body section .section-6 button {
+  margin-top: 1em;
+  padding: 1em 3em;
+  border: 1px solid white;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+body section .section-6 .green-btn {
+  background-color: #26baa4;
+  margin-right: .7em;
+}
+
+body section .section-6 .green-btn:hover {
+  opacity: .9;
+}
+
+body section .section-6 .purple-btn {
+  background-color: #6173ff;
+}
+
+body section .section-6 .purple-btn:hover {
+  opacity: .9;
+}
+
+body .section-7 {
+  width: 100%;
+  padding: 1em 4em 0 4em;
+  margin: 0 auto;
+  background-color: #edeaea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .section-7 .container {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .section-7 .container .footer-links {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  text-align: left;
+}
+
+body .section-7 .container .footer-links li {
+  margin: 1em;
+  width: 150px;
+}
+
+body .section-7 .container .footer-links li a {
+  text-decoration: none;
+}
+
+body .section-7 .container .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+body .section-7 .container .social-links li:nth-child(2) {
+  margin: 0 1rem;
 }
 
 .attribution {
