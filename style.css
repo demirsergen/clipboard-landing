@@ -94,6 +94,7 @@ body section .section-1 {
 
 body section .section-1 h1 {
   margin-bottom: 1em;
+  font-size: 32px;
 }
 
 body section .section-1 p {
@@ -112,6 +113,10 @@ body section .section-2 {
   width: 95%;
 }
 
+body section .section-2 h1 {
+  font-size: 32px;
+}
+
 body section .section-2 .computer-img {
   width: 55%;
 }
@@ -124,6 +129,39 @@ body section .section-2 p {
 body section .section-2 .content {
   width: 30%;
   margin: 3em 5em;
+}
+
+body section .section-3 {
+  width: 60%;
+  margin: 7em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+body section .section-3 h1 {
+  font-size: 32px;
+  margin-bottom: 1em;
+}
+
+body section .section-3 .device-img {
+  width: 100%;
+}
+
+body section .section-3 p {
+  color: #9fabb2;
+  margin-bottom: 5em;
 }
 
 .attribution {

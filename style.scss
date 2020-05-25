@@ -64,7 +64,6 @@ body {
 
     section {
         width: 100%;
-
         .section-1 {
             margin: 5em 0 5em 0;
             display: flex;
@@ -72,39 +71,56 @@ body {
             justify-content: center;
             align-items: center;
             text-align: center;
-
             h1 {
                 margin-bottom: 1em;
+                font-size: 32px;
             }
-
             p {
                 color:$grayish-blue;
                 margin-bottom: 1em;
             }
         }
-
         .section-2 {
             display: flex;
             justify-content: flex-start;
             text-align: left;
             width: 95%;
-
-
-            .computer-img {
-                width: 55%;
-               
+             h1 {
+                font-size: 32px;
             }
-
+            .computer-img {
+                width: 55%;  
+            }
             p {
                 margin: 1em 0;
                 color:$grayish-blue;
             }
-
             .content {
                 width: 30%;
                 margin: 3em 5em;
             }
         }
+        .section-3 {
+            width: 60%;
+            margin: 7em auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            h1 {
+                font-size: 32px;
+                margin-bottom: 1em;
+            }
+            .device-img {
+                width: 100%;   
+            }
+            p {
+                color:$grayish-blue;
+                margin-bottom: 5em;
+            }
+        }
+
 
     }
 
