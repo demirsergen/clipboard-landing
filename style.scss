@@ -48,11 +48,67 @@ body {
         .green-btn {
             background-color: $strong-cyan;
             margin-right: .7em;
+
+            &:hover {
+            opacity: .9;
+            }
         }
         .purple-btn {
             background-color: $light-blue;
+
+            &:hover {
+            opacity: .9;
+            }
         }
     }
+
+    section {
+        width: 100%;
+
+        .section-1 {
+            margin: 5em 0 5em 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            h1 {
+                margin-bottom: 1em;
+            }
+
+            p {
+                color:$grayish-blue;
+                margin-bottom: 1em;
+            }
+        }
+
+        .section-2 {
+            display: flex;
+            justify-content: flex-start;
+            text-align: left;
+            width: 95%;
+
+
+            .computer-img {
+                width: 55%;
+               
+            }
+
+            p {
+                margin: 1em 0;
+                color:$grayish-blue;
+            }
+
+            .content {
+                width: 30%;
+                margin: 3em 5em;
+            }
+        }
+
+    }
+
+    
 }
 
 
