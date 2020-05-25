@@ -269,7 +269,7 @@ body section .section-6 .purple-btn:hover {
 
 body .section-7 {
   width: 100%;
-  padding: 1em 4em 0 4em;
+  padding: 1em 4em;
   margin: 0 auto;
   background-color: #edeaea;
   display: -webkit-box;
@@ -322,6 +322,7 @@ body .section-7 .container .footer-links li {
 
 body .section-7 .container .footer-links li a {
   text-decoration: none;
+  font-size: 16px;
 }
 
 body .section-7 .container .social-links {
@@ -339,6 +340,10 @@ body .section-7 .container .social-links {
 
 body .section-7 .container .social-links li:nth-child(2) {
   margin: 0 1rem;
+}
+
+body footer {
+  margin-top: -3em;
 }
 
 .attribution {
