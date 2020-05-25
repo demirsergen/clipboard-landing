@@ -271,7 +271,7 @@ body .section-7 {
   width: 100%;
   padding: 1em 4em;
   margin: 0 auto;
-  background-color: #edeaea;
+  background-color: whitesmoke;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -295,6 +295,11 @@ body .section-7 .container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+body .section-7 .container .footer-img img {
+  width: 80px;
+  height: 80px;
 }
 
 body .section-7 .container .footer-links {
